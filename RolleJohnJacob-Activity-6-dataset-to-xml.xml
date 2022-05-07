@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE response [
+<!ELEMENT response (row)>
+<!ELEMENT sequence (year, zip_code, dec, jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov,total)>
+
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT zip_code (#PCDATA)>
+<!ELEMENT dec (#PCDATA)>
+<!ELEMENT jan (#PCDATA)>
+<!ELEMENT feb (#PCDATA)>
+<!ELEMENT mar (#PCDATA)>
+<!ELEMENT apr (#PCDATA)>
+<!ELEMENT may (#PCDATA)>
+<!ELEMENT jun (#PCDATA)>
+<!ELEMENT jul (#PCDATA)>
+<!ELEMENT aug (#PCDATA)>
+<!ELEMENT sep (#PCDATA)>
+<!ELEMENT oct (#PCDATA)>
+<!ELEMENT nov (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
+
+<!ATTLIST sequence row CDATA #REQUIRED>
+
+]>
+
+<response> <row>
+<row _id="row 1">
+<year>2009</year> <zip_code/> <dec>286</dec> <jan>327</jan> <feb>299</feb>
+<mar>334</mar> <apr>333</apr> <may>462</may> <jun>472</jun> <jul>525</jul>
+<aug>422</aug> <sep>237</sep> <oct>238</oct> <nov>277</nov>
+<total>4212</total> </row>
+<row _id="row 2">
+<year>2009</year> <zip_code>00000</zip_code> <dec>36</dec> <jan>45</jan>
+<feb>41</feb> <mar>58</mar> <apr>51</apr> <may>30</may> <jun>22</jun>
+<jul>33</jul> <aug>17</aug> <sep>21</sep> <oct>31</oct> <nov>25</nov>
+<total>410</total> </row>
+<row _id="row 3">
+<year>2009</year> <zip_code>06062</zip_code> <jan>1</jan> <apr>3</apr>
+<jun>1</jun> <aug>4</aug> <oct>1</oct> <nov>3</nov> <total>13</total> </row>
+<row _id="row 4">
+<year>2009</year> <zip_code>06501</zip_code> <jan>4</jan> <feb>6</feb>
+<mar>12</mar> <apr>8</apr> <may>2</may> <jun>1</jun> <sep>4</sep>
+<oct>2</oct> <nov>3</nov> <total>42</total> </row>
+<row _id="row 5">
+<year>2009</year> <zip_code>11209</zip_code> <dec>2</dec> <jan>6</jan>
+<feb>3</feb> <mar>1</mar> <apr>4</apr> <may>3</may> <jun>1</jun> <jul>1</jul>
+<total>21</total> </row>
+<row _id="row 6">
+<year>2009</year> <zip_code>22902</zip_code> <dec>2</dec> <jan>1</jan>
+<feb>3</feb> <mar>2</mar> <apr>2</apr> <may>1</may> <total>11</total> </row>
+<row _id="row 7">
+<year>2009</year> <zip_code>30108</zip_code> <jan>1</jan> <feb>2</feb>
+<may>2</may> <jun>1</jun> <sep>2</sep> <oct>2</oct> <nov>2</nov>
+<total>12</total> </row>
+<row _id="row 8">
+<year>2009</year> <zip_code>46307</zip_code> <dec>3</dec> <jan>6</jan>
+<feb>2</feb> <mar>3</mar> <apr>1</apr> <may>3</may> <aug>1</aug> <sep>4</sep>
+<oct>1</oct> <nov>1</nov> <total>25</total> </row>
+<row _id="row 9">
+<year>2009</year> <zip_code>46312</zip_code> <dec>26</dec> <jan>17</jan>
+<feb>10</feb> <mar>16</mar> <apr>24</apr> <may>16</may> <jun>13</jun>
+<jul>18</jul> <aug>21</aug> <sep>22</sep> <oct>20</oct> <nov>17</nov>
+<total>220</total> </row>
+<row _id="row 10">
+ <year>2009</year> <zip_code>46319</zip_code> <dec>1</dec> <jan>3</jan>
+ <feb>2</feb> <mar>1</mar> <apr>3</apr> <may>5</may> <jun>5</jun>
+ <jul>5</jul> <aug>7</aug> <sep>1</sep> <oct>4</oct> <nov>4</nov>
+ <total>41</total> </row> </row> </response>
